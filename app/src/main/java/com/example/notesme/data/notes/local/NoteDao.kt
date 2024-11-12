@@ -1,10 +1,11 @@
-package com.example.notesme.data.notes
+package com.example.notesme.data.notes.local
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
+import com.example.notesme.data.notes.model.NoteEntity
 import com.example.notesme.utils.Constants
 
 @Dao
